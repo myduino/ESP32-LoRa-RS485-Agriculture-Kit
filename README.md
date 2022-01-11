@@ -1,15 +1,15 @@
 # ESP32 LoRa Modbus Agriculture Kit
 Affordable Agriculture Kit ESP32 LoRa 915 MHz RS485 Modbus Controller with Industrial Grade Soil Temperature, Humidity, pH, Nitrogen, Phosphorus and Potassium (NPK) Sensor.
 
-<p align="center"><img src="https://github.com/myinvent/affordable-esp32-lora-modbus-agriculture-kit/blob/main/references/agriculture-kit-01.jpg" width="700"></a></p>
+<p align="center"><img src="https://github.com/myinvent/affordable-esp32-lora-modbus-agriculture-kit/blob/main/references/agriculture-kit-01.jpg" width="600"></a></p>
 
 ## This kit consists of 2 main components:
 1. ESP32 LoRa RS485 Modbus Controller: The heart of this board is a mighty ESP32 Wi-Fi based microcontroller under ESP-WROOM-32 module as it is compatible with Arduino programming. It has RS485 controller, thus able to convert the RS485 signal from the soil sensor. Integrated with LoRa 915 MHz wireless communication, programmable for Malaysia's LoRa frequency which is 923 MHz.
 2. Industrial-Grade Soil Sensor: Measure multi-parameters of soil including Temperature, Moisture, Nitrogen, Phosphorus and Potassium. The output signal is RS485 and can be operated broad range of voltage from 5-30 V.
 
 <p align="center"><img src="https://github.com/myinvent/affordable-esp32-lora-modbus-agriculture-kit/blob/main/references/agriculture-kit-02.jpg" width="700"></a></p>
-<p align="center"><img src="https://github.com/myinvent/affordable-esp32-lora-modbus-agriculture-kit/blob/main/references/agriculture-kit-03.jpg" width="700"></a></p>
-<p align="center"><img src="https://github.com/myinvent/affordable-esp32-lora-modbus-agriculture-kit/blob/main/references/agriculture-kit-04.jpg" width="700"></a></p>
+<p align="center"><img src="https://github.com/myinvent/affordable-esp32-lora-modbus-agriculture-kit/blob/main/references/agriculture-kit-03.jpg" width="350"></a></p>
+<p align="center"><img src="https://github.com/myinvent/affordable-esp32-lora-modbus-agriculture-kit/blob/main/references/agriculture-kit-04.jpg" width="350"></a></p>
 
 ## Specifications
 - ESP32-WROOM-32 Module for microcontroller with Wi-Fi and BLE communication.
