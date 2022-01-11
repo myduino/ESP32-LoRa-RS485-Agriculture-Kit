@@ -1,3 +1,17 @@
+/*
+ * Agriculture Kit
+ * Author: Mohamad Ariffin Zulkifli
+ * 
+ * This is an example sketch for Agricluture Kit
+ * Read the Soil parameters from soil sensor using RS485
+ * Print the measure soil on Serial Monitor.
+ * Show the measured soil parameters on the OLED display.
+ * 
+ * Purchase?
+ * Shopee - https://shopee.com.my/Agriculture-Kit-ESP32-LoRa-915-MHz-RS485-Modbus-Controller-with-Industrial-Grade-Soil-Temperature-Humidity-NPK-Sensor-i.132184430.15335468998
+ * 
+ */
+
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
