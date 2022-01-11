@@ -30,4 +30,6 @@ Affordable Agriculture Kit ESP32 LoRa 915 MHz RS485 Modbus Controller with Indus
 - Waterproof Case
 
 ## Shopping Now
-- [Shopee](https://shopee.com.my/Agriculture-Kit-ESP32-LoRa-915-MHz-RS485-Modbus-Controller-with-Industrial-Grade-Soil-Temperature-Humidity-NPK-Sensor-i.132184430.15335468998?sp_atk=13126d13-29f5-4362-a614-f56af1bb3edd)
+- [Shopee](https://shopee.com.my/Agriculture-Kit-ESP32-LoRa-915-MHz-RS485-Modbus-Controller-with-Industrial-Grade-Soil-Temperature-Humidity-NPK-Sensor-i.132184430.15335468998)
+- [Myduino: Temperature & Humidity, pH and NPK](https://myduino.com/product/agriculture-kit-esp32-lora-915-mhz-rs485-modbus-controller-with-industrial-grade-soil-temperature-humidity-ph-npk-sensor/)
+- [Myduino: Temperature & Humidity](https://myduino.com/product/agriculture-kit-esp32-lora-915-mhz-rs485-modbus-controller-with-industrial-grade-soil-temperature-humidity-sensor/)
