@@ -164,7 +164,7 @@ void loop() {
   if(millis() - lastLoRaTransmit > 5000){
     lastLoRaTransmit = millis();
     
-    String loRaPacket = (String)moisture + "," + (String)temperature + "," + (String)nitrogen + "," + (String)ph + "," + (String)phosphorus + "," + (String)potassium;
+    String loRaPacket = (String)moisture + "," + (String)temperature + "," + (String)ph + "," + (String)nitrogen + "," + (String)phosphorus + "," + (String)potassium;
 
     Serial.println();
     Serial.println("> LoRa Packet: " + loRaPacket);
