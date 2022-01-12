@@ -90,3 +90,5 @@ while True:
         
         display_soil(moisture, temperature, ph)
         display_npk(nitrogen, phosphorus, potassium)
+  
+    sleep(2)
