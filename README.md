@@ -33,3 +33,11 @@ Affordable Agriculture Kit ESP32 LoRa 915 MHz RS485 Modbus Controller with Indus
 - [Shopee](https://shopee.com.my/Agriculture-Kit-ESP32-LoRa-915-MHz-RS485-Modbus-Controller-with-Industrial-Grade-Soil-Temperature-Humidity-NPK-Sensor-i.132184430.15335468998)
 - [Myduino: Temperature & Humidity, pH and NPK](https://myduino.com/product/agriculture-kit-esp32-lora-915-mhz-rs485-modbus-controller-with-industrial-grade-soil-temperature-humidity-ph-npk-sensor/)
 - [Myduino: Temperature & Humidity](https://myduino.com/product/agriculture-kit-esp32-lora-915-mhz-rs485-modbus-controller-with-industrial-grade-soil-temperature-humidity-sensor/)
+
+## How To?
+1. Interface and Wiring
+    <p align="center"><img src="https://github.com/myinvent/affordable-esp32-lora-modbus-agriculture-kit/blob/main/references/agriculture-kit-05.jpg" width="350"></a></p>
+    <p align="center"><img src="https://github.com/myinvent/affordable-esp32-lora-modbus-agriculture-kit/blob/main/references/agriculture-kit-06.jpg" width="350"></a></p>
+2. Choose your development environment, Arduino or Micropython.
+3. Use example program from folder [Example Programs](https://github.com/myinvent/esp32-lora-modbus-agriculture-kit/tree/main/Example%20Programs)
+4. Upload or flash the program into the microcontroller. For Arduino IDE, choose board "ESP32 Dev Board".
