@@ -11,7 +11,12 @@
 
    Purchase?
    Shopee - https://shopee.com.my/Agriculture-Kit-ESP32-LoRa-915-MHz-RS485-Modbus-Controller-with-Industrial-Grade-Soil-Temperature-Humidity-NPK-Sensor-i.132184430.15335468998
-
+   
+   Please install required library before compiling the sketch.
+   1. LoRa by Sandeep Mistry
+   2. Adafruit SSD1305 by Adafruit
+   3. Adafruit GFX by Adafruit
+   4. ESPSoftwareSerial by Dirk Kaar
 */
 
 #include <SPI.h>
