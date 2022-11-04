@@ -1,4 +1,4 @@
-# ESP32 LoRa Modbus Agriculture Kit
+# ESP32 LoRa RS485 Agriculture Kit
 Affordable Agriculture Kit ESP32 LoRa 915 MHz RS485 Modbus Controller.
 
 <p align="center"><img src="https://github.com/myinvent/ESP32-LoRa-RS485-Agriculture-Kit/blob/main/references/agriculture-kit-01.jpg" width="600"></a></p>
