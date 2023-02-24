@@ -54,7 +54,7 @@ Adafruit_SSD1306 display(screenWidth, screenHeight, &Wire, OLEDReset);
 #define LORA_DIO0           25
 #define LORA_DIO1           27
 
-#define LORA_FREQUENCY      923.0
+#define LORA_FREQUENCY      923E6
 #define LORA_BANDWIDTH      125.0
 #define LORA_SPREADING      9
 #define LORA_CODING_RATE    7

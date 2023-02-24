@@ -1,22 +1,22 @@
 /*
-   Agriculture Kit
-   Author: Mohamad Ariffin Zulkifli
+  ESP32 LoRa RS485 Agriculture Kit
+  Author: Mohamad Ariffin Zulkifli
 
-   This is an example sketch for Agricluture Kit
-   Read the Soil parameters from soil sensor using RS485
-   Print the measure soil on Serial Monitor.
-   Show the measured soil parameters on the OLED display.
-   Gather sensor's information into String CSV (Comma Separated Value)
-   Wirelessly Transmit JSON data using LoRa communication.
+  This is an example sketch for Agricluture Kit
+  Read the Soil parameters from soil sensor using RS485
+  Print the measure soil on Serial Monitor.
+  Show the measured soil parameters on the OLED display.
+  Gather sensor's information into String CSV (Comma Separated Value)
+  Wirelessly Transmit JSON data using LoRa communication.
 
-   Purchase?
-   Shopee - https://shopee.com.my/Agriculture-Kit-ESP32-LoRa-915-MHz-RS485-Modbus-Controller-with-Industrial-Grade-Soil-Temperature-Humidity-NPK-Sensor-i.132184430.15335468998
-   
-   Please install required library before compiling the sketch.
-   1. LoRa by Sandeep Mistry
-   2. Adafruit SSD1305 by Adafruit
-   3. Adafruit GFX by Adafruit
-   4. ESPSoftwareSerial by Dirk Kaar
+  Purchase?
+  Shopee - https://shopee.com.my/Agriculture-Kit-ESP32-LoRa-915-MHz-RS485-Modbus-Controller-with-Industrial-Grade-Soil-Temperature-Humidity-NPK-Sensor-i.132184430.15335468998
+  
+  Please install required library before compiling the sketch.
+  1. LoRa by Sandeep Mistry
+  2. Adafruit SSD1305 by Adafruit
+  3. Adafruit GFX by Adafruit
+  4. ESPSoftwareSerial by Dirk Kaar
 */
 
 #include <SPI.h>
@@ -60,7 +60,7 @@ Adafruit_SSD1306 display(screenWidth, screenHeight, &Wire, OLEDReset);
 #define LORA_DIO1           27
 
 #define LORA_ID             1
-#define LORA_FREQUENCY      923
+#define LORA_FREQUENCY      923E6
 #define LORA_BANDWIDTH      125.0
 #define LORA_SPREADING      7
 #define LORA_CODING_RATE    7
