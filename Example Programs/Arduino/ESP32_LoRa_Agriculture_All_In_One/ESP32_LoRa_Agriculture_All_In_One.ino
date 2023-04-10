@@ -14,7 +14,7 @@
   
   Please install required library before compiling the sketch.
   1. LoRa by Sandeep Mistry
-  2. Adafruit SSD1305 by Adafruit
+  2. Adafruit SSD1306 by Adafruit
   3. Adafruit GFX by Adafruit
   4. ESPSoftwareSerial by Dirk Kaar
 */
