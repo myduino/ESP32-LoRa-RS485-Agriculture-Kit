@@ -1,5 +1,5 @@
 # ESP32 LoRa RS485 Agriculture Kit
-Affordable Agriculture Kit ESP32 LoRa 915 MHz RS485 Modbus Controller.
+Introducing an affordable [Agriculture Kit ESP32 LoRa 915 MHz RS485 Soil Temperature, Moisture & Electrical Conductivity Sensor](https://myduino.com/product/jhs-253/)
 
 <p align="center"><img src="https://github.com/myinvent/ESP32-LoRa-RS485-Agriculture-Kit/blob/main/references/agriculture-kit-01.jpg" width="600"></a></p>
 
@@ -30,15 +30,17 @@ Affordable Agriculture Kit ESP32 LoRa 915 MHz RS485 Modbus Controller.
 - Moisture Content
     - Measurement Range: 0 ~ 100 %
     - Measurement Accuracy: ±3 %
+    - Measurement Range: 0 ~ 100 %
+    - Measurement Accuracy: ±3 %
+- Electrical Conductivity (EC).
+    - Measurement Range: 0 ~ 20000 uS/cm
+    - Measurement Resolution: 1 uS/cm
 - pH
     - Measurement Range: 3 ~ 9
     - Measurement Resolution: 0.1
 - NPK
     - Measurement Range: 0 ~ 2999 mg/kg
     - Measurement Resolution: 1 mg/kg 
-- Electrical Conductivity (EC).
-    - Measurement Range: 0 ~ 20000 uS/cm
-    - Measurement Resolution: 1 uS/cm
 
 ## RS845 Communication Details
 - Data Bits: 8-bit
