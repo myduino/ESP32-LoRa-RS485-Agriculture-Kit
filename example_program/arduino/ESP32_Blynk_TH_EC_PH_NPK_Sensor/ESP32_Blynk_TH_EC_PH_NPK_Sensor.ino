@@ -46,7 +46,7 @@ Adafruit_SSD1306 display(screenWidth, screenHeight, &Wire, OLEDReset);
 #define sensorByteResponse          0x0E
 
 // RS485 Byte Address Request to Sensor
-unsigned char byteRequest[8] = {0X01, 0X03, 0X00, 0X00, 0X00, 0X07, 0X04, 0X08};
+unsigned char byteRequest[8] = {0x01, 0x03, 0x00, 0x00, 0x00, 0x07, 0x04, 0x08};
 unsigned char byteResponse[19] = {};
 
 float moisture, temperature, ph, nitrogen, phosphorus, potassium;
