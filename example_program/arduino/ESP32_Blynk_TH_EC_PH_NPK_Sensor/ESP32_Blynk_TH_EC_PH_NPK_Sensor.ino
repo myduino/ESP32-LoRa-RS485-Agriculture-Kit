@@ -49,7 +49,7 @@ Adafruit_SSD1306 display(screenWidth, screenHeight, &Wire, OLEDReset);
 unsigned char byteRequest[8] = {0X01, 0X03, 0X00, 0X00, 0X00, 0X07, 0X04, 0X08};
 unsigned char byteResponse[19] = {};
 
-float moisture, temperature;
+float moisture, temperature, ph, nitrogen, phosphorus, potassium;
 int ec;
 
 unsigned long lastMillis = 0;
@@ -169,6 +169,11 @@ void loop() {
     Blynk.virtualWrite(V0, moisture);
     Blynk.virtualWrite(V1, temperature);
     Blynk.virtualWrite(V2, ec);
+    Blynk.virtualWrite(V3, ph);
+    Blynk.virtualWrite(V4, nitrogen);
+    Blynk.virtualWrite(V5, phosphorus);
+    Blynk.virtualWrite(V6, potassium);
+
   }
 }
 
@@ -194,7 +199,7 @@ void displaySoil(float mo, float tp, float ph, float ec, float ni, float ps, flo
 
   display.setCursor(66, 8);
   display.print(F("EC:"));
-  display.print(ec, 1);
+  display.print(ec);
 
   display.setCursor(0, 16);
   display.print(F(" <<<NPK>>> "));
