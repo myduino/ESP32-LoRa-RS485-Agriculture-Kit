@@ -173,20 +173,22 @@ void setup() {
       LoRa.print(loRaPacket);
       LoRa.endPacket();
 
-      Serial.println("> LoRa TxDone");
+      Serial.println("> LoRa Transmit OK!");
 
       display.setCursor(10, 20);
       display.setTextColor(WHITE, BLACK);
       display.print(F("SENSOR FAILED!"));
       display.display();
 
-      delay(5000);
+      return;
+
+      // delay(5000);
   
-      esp_sleep_enable_timer_wakeup(TIME_TO_SLEEP * uS_TO_S_FACTOR * 60);
-      Serial.println("> Sleep mode for " + String(TIME_TO_SLEEP) + " Minutes");
-      displaySleepMode(TIME_TO_SLEEP);
+      // esp_sleep_enable_timer_wakeup(TIME_TO_SLEEP * uS_TO_S_FACTOR * 60);
+      // Serial.println("> Sleep mode for " + String(TIME_TO_SLEEP) + " Minutes");
+      // displaySleepMode(TIME_TO_SLEEP);
       
-      esp_deep_sleep_start();
+      // esp_deep_sleep_start();
     }
   }
 
@@ -195,7 +197,7 @@ void setup() {
   Serial.print("Byte Response: ");
 
   String responseString;
-  for (int j = 0; j < 19; j++) {
+  for (int j = 0; j < sensorFrameSize; j++) {
     responseString += byteResponse[j] < 0x10 ? " 0" : " ";
     responseString += String(byteResponse[j], HEX);
     responseString.toUpperCase();
@@ -212,8 +214,8 @@ void setup() {
 
   Serial.println("Moisture: " + (String)moisture + " %");
   Serial.println("Temperature: " + (String)temperature + " °C");
-  Serial.println("pH: " + (String)ph);
   Serial.println("EC: " + (String)ec + " uS/cm");
+  Serial.println("pH: " + (String)ph);
   Serial.println("Nitrogen (N): " + (String)nitrogen + " mg/kg");
   Serial.println("Phosporus (P): " + (String)phosphorus + " mg/kg");
   Serial.println("Potassium (K): " + (String)potassium + " mg/kg");
@@ -226,10 +228,10 @@ void setup() {
   loRaPacket += (String)temperature;
   loRaPacket +=  ",\"mo\":";
   loRaPacket += (String)moisture;
-  loRaPacket +=  ",\"ph\":";
-  loRaPacket += (String)ph;
   loRaPacket +=  ",\"ec\":";
   loRaPacket += (String)ec;
+  loRaPacket +=  ",\"ph\":";
+  loRaPacket += (String)ph;
   loRaPacket +=  ",\"nt\":";
   loRaPacket += (String)nitrogen;
   loRaPacket +=  ",\"ps\":";
@@ -245,7 +247,7 @@ void setup() {
   LoRa.print(loRaPacket);
   LoRa.endPacket();
 
-  Serial.println("> LoRa TxDone");
+  Serial.println("> LoRa Transmit OK!");
   
   esp_sleep_enable_timer_wakeup(TIME_TO_SLEEP * uS_TO_S_FACTOR * 60);
   Serial.println("> Sleep mode for " + String(TIME_TO_SLEEP) + " Minutes");
@@ -296,12 +298,12 @@ void displaySoil(float mo, float tp, float ph, float ec, float ni, float ps, flo
   display.print(F("\367C"));
 
   display.setCursor(0, 8);
-  display.print(F("pH:"));
-  display.print(ph, 1);
-
-  display.setCursor(66, 8);
   display.print(F("EC:"));
   display.print(ec);
+
+  display.setCursor(66, 8);
+  display.print(F("pH:"));
+  display.print(ph, 1);
 
   display.setCursor(0, 16);
   display.print(F(" <<<NPK>>> "));
