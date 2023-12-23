@@ -39,7 +39,7 @@ Adafruit_SSD1306 display(screenWidth, screenHeight, &Wire, OLEDReset);
 #define RS485RX                     23
 #define RS485TX                     22
 
-#define sensorFrameSize             11
+#define sensorFrameSize             19
 #define sensorWaitingTime           1000
 #define sensorID                    0x01
 #define sensorFunction              0x03
