@@ -1,3 +1,17 @@
+/*
+ * Agriculture Kit
+ * Author: Mohamad Ariffin Zulkifli
+ * 
+ * This is an example sketch for Agricluture Kit
+ * Read the Soil parameters from soil sensor using RS485
+ * Print the measure soil on Serial Monitor.
+ * Show the measured soil parameters on the OLED display.
+ * 
+ * Purchase?
+ * Myduino - https://myduino.com/product/jhs-268/
+ * 
+ */
+
 #define BLYNK_PRINT                 Serial
 #define BLYNK_TEMPLATE_ID           "YOUR_BLYNK_TEMPLATE_ID"
 #define BLYNK_TEMPLATE_NAME         "YOUR_BLYNK_TEMPLATE_NAME"

@@ -1,3 +1,17 @@
+/*
+ * Agriculture Kit
+ * Author: Mohamad Ariffin Zulkifli
+ * 
+ * This is an example sketch for Agricluture Kit
+ * Read the Soil parameters from soil sensor using RS485
+ * Print the measure soil on Serial Monitor.
+ * Show the measured soil parameters on the OLED display.
+ * 
+ * Purchase?
+ * Shopee - https://shopee.com.my/Agriculture-Kit-ESP32-LoRa-915-MHz-RS485-Modbus-Controller-with-Industrial-Grade-Soil-Temperature-Humidity-NPK-Sensor-i.132184430.15335468998
+ * 
+ */
+
 #define BLYNK_PRINT                 Serial
 #define BLYNK_TEMPLATE_ID           "YOUR_BLYNK_TEMPLATE_ID"
 #define BLYNK_TEMPLATE_NAME         "YOUR_BLYNK_TEMPLATE_NAME"
