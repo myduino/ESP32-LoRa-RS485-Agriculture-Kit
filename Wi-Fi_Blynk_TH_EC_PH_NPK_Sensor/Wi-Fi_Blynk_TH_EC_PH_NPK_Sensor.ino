@@ -16,6 +16,8 @@
 #define BLYNK_TEMPLATE_ID           "YOUR_BLYNK_TEMPLATE_ID"
 #define BLYNK_TEMPLATE_NAME         "YOUR_BLYNK_TEMPLATE_NAME"
 #define BLYNK_AUTH_TOKEN            "YOUR_BLYNK_AUTH_TOKEN"
+#define WIFI_SSID                   "YOUR_WIFI_NAME"
+#define WIFI_PASSWORD               "YOUR_WIFI_PASSWORD"
 
 #include <SPI.h>
 #include <LoRa.h>
@@ -26,9 +28,6 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <SoftwareSerial.h>
-
-#define WIFI_SSID                   "YOUR_WIFI_NAME"
-#define WIFI_PASSWORD               "YOUR_WIFI_PASSWORD"
 
 // Sensor Pin Definition
 #define RS485Power                  18
