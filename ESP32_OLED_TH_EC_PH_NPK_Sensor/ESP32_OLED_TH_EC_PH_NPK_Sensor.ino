@@ -49,7 +49,7 @@ unsigned char byteResponse[19] = {};
 float moisture, temperature, ph, nitrogen, phosphorus, potassium;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   sensor.begin(4800);
 
   pinMode(displayPower, OUTPUT);
