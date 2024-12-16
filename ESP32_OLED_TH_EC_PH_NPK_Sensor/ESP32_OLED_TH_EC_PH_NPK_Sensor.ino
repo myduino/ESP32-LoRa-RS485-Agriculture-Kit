@@ -29,6 +29,9 @@ Adafruit_SSD1306 display(screenWidth, screenHeight, &Wire, OLEDReset);
 #define ESP32SCL            5
 
 #define RS485Power          18
+
+// If you are using different Development Board,
+// do change the RX, TX pin appropriately
 #define RS485RX             23
 #define RS485TX             22
 
